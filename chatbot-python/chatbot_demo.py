@@ -40,6 +40,16 @@ data = {
                 "I have no name yet," "You can give me one, and I will appreciate it"
             ],
         },
+        {
+            "tag": "coach",
+            "patterns": ["Who is our data coach?", "Who is our Associate coach"],
+            "responses": ["Data Coach, Associate coach"]
+        },
+        {
+            "tag": "coach",
+            "patterns": ["Who is our data coach?", "Who is our Associate coach"],
+            "responses": ["Data Coach, Associate coach"]
+        }
     ]
 }
 

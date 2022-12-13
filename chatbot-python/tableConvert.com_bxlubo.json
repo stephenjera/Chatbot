@@ -1,0 +1,122 @@
+﻿[
+    {
+        "Date": "11/28/22",
+        "Day": "Monday",
+        "Coach/Associate": "Coach",
+        "Name": "N/A",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Final Project",
+        "AM": "Waseem Career Talks 11-12",
+        "PM": "N/A",
+        "EOD": "N/A"
+    },
+    {
+        "Date": "11/29/22",
+        "Day": "Tuesday",
+        "Coach/Associate": "Coach",
+        "Name": "N/A",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Final Project",
+        "AM": "N/A",
+        "PM": "N/A",
+        "EOD": "N/A"
+    },
+    {
+        "Date": "11/30/22",
+        "Day": "Wednesday",
+        "Coach/Associate": "Coach",
+        "Name": "N/A",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Academy + (1)",
+        "AM": "N/A",
+        "PM": "N/A",
+        "EOD": "N/A"
+    },
+    {
+        "Date": "12/1/22",
+        "Day": "Thursday",
+        "Coach/Associate": "Coach",
+        "Name": "N/A",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Academy + (1)",
+        "AM": "N/A",
+        "PM": "N/A",
+        "EOD": "N/A"
+    },
+    {
+        "Date": "12/2/22",
+        "Day": "Friday",
+        "Coach/Associate": "Coach",
+        "Name": "N/A",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Academy + (1)",
+        "AM": "N/A",
+        "PM": "N/A",
+        "EOD": "N/A"
+    },
+    {
+        "Date": "11/28/22",
+        "Day": "Monday",
+        "Coach/Associate": "Associate",
+        "Name": "Nathan",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Final Project",
+        "AM": "Dev",
+        "PM": "Project",
+        "EOD": "Admin"
+    },
+    {
+        "Date": "11/29/22",
+        "Day": "Tuesday",
+        "Coach/Associate": "Associate",
+        "Name": "Nathan",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Final Project",
+        "AM": "Project",
+        "PM": "Project",
+        "EOD": "Admin"
+    },
+    {
+        "Date": "11/30/22",
+        "Day": "Wednesday",
+        "Coach/Associate": "Associate",
+        "Name": "Nathan",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Academy + (1)",
+        "AM": "Set on Academy Portfolio Building",
+        "PM": "Dev",
+        "EOD": "Admin"
+    },
+    {
+        "Date": "12/1/22",
+        "Day": "Thursday",
+        "Coach/Associate": "Associate",
+        "Name": "Nathan",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Academy + (1)",
+        "AM": "Dev",
+        "PM": "Dev",
+        "EOD": "Admin"
+    },
+    {
+        "Date": "12/2/22",
+        "Day": "Friday",
+        "Coach/Associate": "Associate",
+        "Name": "Nathan",
+        "Week": "W12",
+        "Cohort": "C6",
+        "Task": "Academy + (1)",
+        "AM": "C7 Presentation",
+        "PM": "C7 Presentation",
+        "EOD": "Admin"
+    }
+]
