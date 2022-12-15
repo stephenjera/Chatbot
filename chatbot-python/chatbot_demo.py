@@ -71,6 +71,19 @@ data = {
             ],
             "responses": ["Data Coach, Associate coach"],
         },
+        {
+              "tag": "thursday",
+            "patterns": [
+                "what am i doing on thursday?",
+                "What is on Thursday",
+                "Tasks I need to complete on Thursday",
+                "Tasks for thursday",
+                "Schedule for thursday",
+                "Upcoming thursday task",
+                "next Thursday"
+            ],
+            "responses": ["Data Coach, Associate coach"],
+        }
     ]
 }
 
@@ -230,10 +243,43 @@ def get_res(intents, df):
                         )
 
                     if Name == "NaN":
+                        return "On Monday, {}, {}, will be teaching {}.".format(
+                            CoachAssociate[0], Name1[0], Task1[0]
+                        )
+                    break
+        case "thursday":
+            date2= (
+                datetime.date.today()
+                + datetime.timedelta(days=-datetime.date.today().weekday(), weeks=1)
+                - datetime.timedelta(days=18)
+            )
+            Task1 = df.query("Date == @date2")["Task"].to_list()
+            CoachAssociate = df.query("Date == @date2")["Coach/Associate"].to_list()
+            Name1 = df.query("Date == @date2")["Name"].to_list()
+            am1 = df.query("Date == @date2")["AM"].to_list()
+            pm1 = df.query("Date == @date2")["PM"].to_list()
+            eod = df.query("Date == @date2")["EOD"].to_list()
+            while True:
+                Name = input("Please input the Coach or Associates Coachs Name.")
+                if Name not in ("Nathan", "NaN"):
+                    print("Enter either this names exactly, Nathan or NaN")
+                else:
+                    if Name == "Nathan":
+                        return "On Thursday {}, {}, {}, will be teaching {} in the morning, {} in the afternoon and {} at the end of the day.".format(
+                            date2,
+                            CoachAssociate[1],
+                            Name1[1],
+                            am1[1],
+                            pm1[1],
+                            eod[1],
+                        )
+
+                    if Name == "NaN":
                         return "Tomorrow, {}, {}, will be teaching {}.".format(
                             CoachAssociate[0], Name1[0], Task1[0]
                         )
                     break
+            return               
         case _:
             return "I do not understand please ask a different question"
 
